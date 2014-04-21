@@ -73,6 +73,7 @@ RUN_AS_USER="basex"
 # When installing on On Mac OSX platforms, the following domain will be used to
 #  prefix the plist file name.
 PLIST_DOMAIN=org.tanukisoftware.wrapper
+RUN_LEVEL=20
  
 # Initialization block for the install_initd and remove_initd scripts used by
 #  SUSE linux distributions.
