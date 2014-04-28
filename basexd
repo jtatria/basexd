@@ -73,6 +73,9 @@ RUN_AS_USER="basex"
 # When installing on On Mac OSX platforms, the following domain will be used to
 #  prefix the plist file name.
 PLIST_DOMAIN=org.tanukisoftware.wrapper
+
+# Wrapper needs explicit runlevel since version 3.5.22-2ubuntu1, fails with
+# "Run level "" must be numeric and have a length of two (00-99). "
 RUN_LEVEL=20
  
 # Initialization block for the install_initd and remove_initd scripts used by
